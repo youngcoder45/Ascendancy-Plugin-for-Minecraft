@@ -28,4 +28,4 @@ Feature overview and setup guide coming soon!
 This project is licensed under the **BSD 3-Clause License**.
 See the LICENSE file for more information.
 
-Copyright (c) 2025, HyScript7 and AngrytrashCZ
+Copyright (c) 2025, HyScript7,  AngrytrashCZ and Youngcoder45
