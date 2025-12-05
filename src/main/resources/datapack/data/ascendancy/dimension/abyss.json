@@ -1,0 +1,26 @@
+{
+  "type": "ascendancy:void_world_l1",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "ascendancy:layer_abyss",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 64,
+          "block": "minecraft:air"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:barrier"
+        },
+        {
+          "height": 319,
+          "block": "minecraft:air"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

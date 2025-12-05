@@ -1,0 +1,42 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 16777215,
+    "fog_color": 16777215,
+    "water_color": 16777215,
+    "water_fog_color": 16777215,
+    "grass_color": 16777215,
+    "foliage_color": 16777215,
+    "dry_foliage_color": 0,
+    "grass_color_modifier": "none",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.underwater.loop.additions.ultra_rare",
+      "range": 100
+    },
+    "music": [
+      {
+        "weight": 0,
+        "data": {
+          "sound": "minecraft:music.credits",
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "particle": {
+      "options": {
+        "type": "minecraft:enchant"
+      },
+      "probability": 0.1
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

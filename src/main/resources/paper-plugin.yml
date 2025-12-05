@@ -1,0 +1,7 @@
+name: Ascendancy
+version: '2.1.1-MC1.21.8-SNAPSHOT'
+main: io.github.hyscript7.ascendancy.AscendancyPlugin
+api-version: '1.21'
+authors: [HyScript7, AngrytrashCZ]
+description: A mystical plugin which adds magic, perma-death, relics and rituals.
+bootstrapper: io.github.hyscript7.ascendancy.AscendancyPluginBootstrap

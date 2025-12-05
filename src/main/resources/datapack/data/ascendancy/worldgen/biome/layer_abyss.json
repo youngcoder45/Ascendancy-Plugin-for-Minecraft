@@ -1,0 +1,42 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 0,
+    "water_fog_color": 0,
+    "grass_color": 16777215,
+    "foliage_color": 16777215,
+    "dry_foliage_color": 0,
+    "grass_color_modifier": "none",
+    "ambient_sound": {
+      "sound_id": "minecraft:ambient.warped_forest.loop",
+      "range": 100
+    },
+    "music": [
+      {
+        "weight": 0,
+        "data": {
+          "sound": "minecraft:music.nether.basalt_deltas",
+          "min_delay": 0,
+          "max_delay": 0,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.2
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

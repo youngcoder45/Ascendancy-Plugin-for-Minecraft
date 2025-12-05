@@ -1,0 +1,15 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.home": "/home/aditya/.gradle/jdks/eclipse_adoptium-21-amd64-linux.2",
+    "java.jdt.ls.java.home": "/home/aditya/.gradle/jdks/eclipse_adoptium-21-amd64-linux.2",
+    "java.import.gradle.java.home": "/home/aditya/.gradle/jdks/eclipse_adoptium-21-amd64-linux.2",
+    "java.configuration.detectJvmAtStartup": false,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-21",
+            "path": "/home/aditya/.gradle/jdks/eclipse_adoptium-21-amd64-linux.2",
+            "default": true
+        }
+    ]
+}

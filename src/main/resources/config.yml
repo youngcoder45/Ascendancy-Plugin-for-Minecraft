@@ -1,0 +1,64 @@
+innate_names:
+  honeypot:
+    # Should the obfuscated innate names, instead of being replaced with stars, be replaced with a predefined name?
+    # Players attempting to use this name in dissonant commands will be publicly humiliated.
+    enabled: false
+    name: Obscuron
+void_ban:
+  # What is the maximum cap on lives?
+  default_max_lives: 10
+  # How many lives does a new player begin with?
+  starting_lives: 10
+  # How many lives is the player reset to when they resurrect?
+  resurrection_lives: 10
+  # How many lives is the player reset to when they are revived?
+  revive_lives: 10
+  # Should PvE deaths take away lives?
+  pve_enabled: false
+void_realm:
+  # How many % above the maximum world height does a player have to be to "climb" up to the next layer?
+  escape_height_overshoot_percentage: 10
+  # How many blocks above the minimal world height can the player go before the bedrock breaker terminates?
+  default_world_height_void_terminator_offset: 10
+  # What radius around the player should bedrock be broken around when leaving the void realm?
+  bedrock_breaker_radius: 3.0
+  # How big is the void realm's reflection (self) layer?
+  reflection_world_size_radius: 500
+  strain:
+    # Should being in complete darkness while in the Void Realm inflict debuffs?
+    enabled: true
+    # Whether the strain should target dead players
+    target_dead: true
+    # Whether the strain should target living players
+    target_living: true
+    # Whether the strain should target mobs that fell into the void
+    target_non_players: false
+  # What restrictions should be imposed upon void banned players?
+  dead_player_restrictions:
+    no_build: true
+    no_break: true
+    no_interact: false
+spell_books:
+  # Floats to use for CustomModelData
+  custom_model_data:
+    - 777.0
+# Prevents using items of a higher tier than the player has unlocked by killing bosses
+boss_progression:
+  # How many bosses does the player need to kill in order to use diamond gear?
+  diamond_kills: 1
+  # How many bosses does the player need to kill in order to use netherite gear?
+  netherite_kills: 3
+  # All players within this range of a boss dying will get the kill
+  kill_credit_radius: 32
+  # How many bosses need to die before the nether is open?
+  nether_kills: 1
+rituals:
+  # Void Revealing Ritual Settings
+  void_revealing:
+    # How far from spawn must the player be to allow the ritual?
+    spawn_protection_distance: 300
+    # Below which Y should we allow the ritual inside the spawn protection distance?
+    # Set to -64 to disable (unless your world is deeper)
+    spawn_protection_y_bypass_below: 0
+    # Maximum allowed range for the crater
+    max_range: 32

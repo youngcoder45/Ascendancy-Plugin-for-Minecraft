@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "description": [
+      {
+        "translate": "★ Ascendancy ☄",
+        "color": "#9141ac"
+      },
+      {
+        "translate": " [v2.1.1] ",
+        "color": "#707070"
+      },
+      {
+        "translate": "By HyScript7, AngrytrashCZ",
+        "color": "#898f96"
+      }
+    ],
+    "pack_format": 81,
+    "supported_formats": {
+      "min_inclusive": 81,
+      "max_inclusive": 88
+    }
+  }
+}
